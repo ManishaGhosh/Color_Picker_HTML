@@ -1,0 +1,176 @@
+body
+{
+height:100%;
+width:100%;
+background-color:  #cce6ff;
+}
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.heading
+{
+  width: 100%;
+  height: 10%;
+  background-color:#b3b3ff ;
+  color:black;
+  top:0;
+  left: 0;
+  position: fixed;
+  text-align: center;
+  font-size: 1rem;
+}
+
+#intro
+{
+  width:100%;
+  background-color: rgb(255, 255, 255, 0.5);
+  font-size: 2rem;
+  text-align: center;
+  color: rgb(50, 78, 78);
+  padding: 1px;
+  margin: 0 auto;
+    margin-top: 5%;
+  font-family: monospace;
+  font-weight: lighter;
+}
+.boxes
+{
+background-color: white;
+  border-radius: 10px;
+    width: 23vw;
+      padding-left: 1.5%;
+      padding-right: 0.5%;
+      padding-top: 0.5%;
+      padding-bottom: 0;
+      margin: 3%;
+       animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+.colorcontainer
+{
+  display: flex;
+  height: 25vh;
+
+}
+.colortext
+{
+  height:6vw;
+  font-size:1.5rem;
+  color:  #a3c2c2;
+}
+
+.innercolor
+{
+height: 25vh;
+float: left;
+width:3vw;
+  margin: 0;
+
+}
+.innercolor:hover
+{
+  width:5vw;
+  height: 28vh;
+}
+#colors
+{
+  display: flex;
+  flex-wrap: wrap;
+  margin:0 auto;
+  justify-content: space-around;
+}
+.testcolor
+{
+  height:20vh;
+  width:16vw;
+  border-radius: 10px;
+  padding: 1%;
+  font-size: 2vw;
+  font-family: "Courier New",Courier,monospace;
+  color: #A9A9A9;
+}
+.popclass
+{
+  background-color: white;
+  text-align: center;
+  font-size: 7vw;
+  width: 70vw;
+  height: 60vh;
+  border-radius: 25px;
+  border: 0px;
+  background-color:#808080;
+  color:white;
+  position: fixed;
+  top: 0;
+  text-decoration: none;
+user-select:none;
+margin-top: 5%;
+outline: none;
+margin-left: 15%;
+box-shadow: 4px 4px 10px grey;
+}
+.content
+{
+  background-color: white;
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 3%;
+  margin-top: 2%;
+  font-family: monospace, Courier;
+}
+
+.content h2
+{
+  font-size: 50px;
+}
+p
+{
+  line-height: 2rem;
+
+}
+img
+{
+  width: 30vw;
+  height: 50vh;
+  display:inline-block;
+  justify-content: space-between;
+  margin-top: 2rem;
+  border-radius: 15px;
+}
+#firstimg
+{
+  margin-right: 15rem;
+  margin-left: 5rem;
+}
+
+.endcard
+{
+  width:100%;
+  height: 30vh;
+  margin-top: 5%;
+  background-color: rgb(16,29,59);
+  text-align: center;
+  margin: 0 auto;
+}
+
+.endcard h2
+{
+  font-size: 2rem;
+  color:white;
+  padding-top:5%;
+}
+.endcard a
+{
+  font-size: 1rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
